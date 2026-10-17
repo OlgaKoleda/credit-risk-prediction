@@ -1,0 +1,17 @@
+# Data (download from Kaggle)
+data/*.csv
+data/*.xls
+
+# Saved models
+models/*.joblib
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# macOS / editors
+.DS_Store
+.vscode/
