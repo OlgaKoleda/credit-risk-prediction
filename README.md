@@ -32,7 +32,7 @@ Predicting which borrowers will get into serious financial trouble within two ye
 
 | Kaggle submission | Model | CV ROC AUC | Public | Private |
 |---|---|---|---|---|
-| v1 | Gradient boosting, cleaned features | 0.8644 | _to be added_ | _to be added_ |
+| v1 | Gradient boosting, cleaned features | 0.8644 | 0.86024 | **0.86752** |
 
 ## Project structure
 
