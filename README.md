@@ -2,7 +2,7 @@
 
 Predicting which borrowers will get into serious financial trouble within two years, and turning the risk score into a lending decision, using the [Kaggle "Give Me Some Credit" competition](https://www.kaggle.com/c/GiveMeSomeCredit) (150,000 borrowers).
 
-> A gradient boosting blend reaches **ROC AUC 0.866** (Kaggle private score 0.8675 for the first model), with well-calibrated probabilities, plain-language reasons for every decision, and an analysis of how the model treats different age groups.
+> A gradient boosting blend reaches **ROC AUC 0.866** (Kaggle private score 0.869, within about 0.001 of the competition's winners), with well-calibrated probabilities, plain-language reasons for every decision, and an analysis of how the model treats different age groups.
 
 ![Model comparison](images/model_comparison.png)
 
@@ -36,7 +36,7 @@ Predicting which borrowers will get into serious financial trouble within two ye
 | Kaggle submission | Model | CV ROC AUC | Public | Private |
 |---|---|---|---|---|
 | v1 | Gradient boosting, cleaned features | 0.8644 | 0.86024 | 0.86752 |
-| v2 | Blend of tuned gradient boosting and XGBoost | 0.8664 | _to be added_ | _to be added_ |
+| v2 | Blend of tuned gradient boosting and XGBoost | 0.8664 | 0.86157 | **0.86896** |
 
 ## Tuning, calibration and fairness
 
